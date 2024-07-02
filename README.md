@@ -69,21 +69,21 @@ flask run
 The application will be available at http://127.0.0.1:5005.
 
 #API Endpoints
-1. ##Authentication
+1. Authentication
    - POST /register - Register a new user
    - POST /login - Authenticate a user and return a JWT
    - POST /logout - Revoke the current JWT
-2. ##Items
+2. Items
    - GET /item/<string:item_id> - Get an item by ID
    - POST /item - Create a new item
    - PUT /item/<string:item_id> - Update an item by ID
    - DELETE /item/<string:item_id> - Delete an item by ID
-3. ##Stores
+3. Stores
    - GET /store/<string:store_id> - Get a store by ID
    - POST /store - Create a new store
    - PUT /store/<string:store_id> - Update a store by ID
    - DELETE /store/<string:store_id> - Delete a store by ID
-4. ##Tags
+4. Tags
    - GET /tag/<string:tag_id> - Get a tag by ID
    - POST /tag - Create a new tag
    - PUT /tag/<string:tag_id> - Update a tag by ID
