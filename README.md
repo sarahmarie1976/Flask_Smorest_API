@@ -59,7 +59,7 @@ Running the Application
 Activate the virtual environment:
 
 bash
-Copy code
+
 source .apivenv/bin/activate
 Run the Flask application:
 
@@ -123,9 +123,6 @@ The application will be available at http://127.0.0.1:5005.
 
 License
 This project is licensed under the MIT License.
-
-markdown
-Copy code
 
 ### How to Add the README.md in VSCode
 
