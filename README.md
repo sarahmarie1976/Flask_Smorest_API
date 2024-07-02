@@ -68,58 +68,58 @@ bash
 flask run
 The application will be available at http://127.0.0.1:5005.
 
-API Endpoints
-Authentication
-POST /register - Register a new user
-POST /login - Authenticate a user and return a JWT
-POST /logout - Revoke the current JWT
-Items
-GET /item/<string:item_id> - Get an item by ID
-POST /item - Create a new item
-PUT /item/<string:item_id> - Update an item by ID
-DELETE /item/<string:item_id> - Delete an item by ID
-Stores
-GET /store/<string:store_id> - Get a store by ID
-POST /store - Create a new store
-PUT /store/<string:store_id> - Update a store by ID
-DELETE /store/<string:store_id> - Delete a store by ID
-Tags
-GET /tag/<string:tag_id> - Get a tag by ID
-POST /tag - Create a new tag
-PUT /tag/<string:tag_id> - Update a tag by ID
-DELETE /tag/<string:tag_id> - Delete a tag by ID
+#API Endpoints
+##Authentication
+####POST /register - Register a new user
+####POST /login - Authenticate a user and return a JWT
+####POST /logout - Revoke the current JWT
+#Items
+####GET /item/<string:item_id> - Get an item by ID
+####POST /item - Create a new item
+####PUT /item/<string:item_id> - Update an item by ID
+####DELETE /item/<string:item_id> - Delete an item by ID
+#Stores
+####GET /store/<string:store_id> - Get a store by ID
+####POST /store - Create a new store
+####PUT /store/<string:store_id> - Update a store by ID
+####DELETE /store/<string:store_id> - Delete a store by ID
+#Tags
+####GET /tag/<string:tag_id> - Get a tag by ID
+####POST /tag - Create a new tag
+####PUT /tag/<string:tag_id> - Update a tag by ID
+####DELETE /tag/<string:tag_id> - Delete a tag by ID
 
 
-Project Structure
+#Project Structure
 
-first_rest_api/
-├── .apivenv/
-├── instance/
-│   ├── data.db
-├── migrations/
-│   ├── versions/
-├── models/
-│   ├── __init__.py
-│   ├── item.py
-│   ├── item_tags.py
-│   ├── store.py
-│   ├── tag.py
-│   ├── user.py
-├── resources/
-│   ├── __init__.py
-│   ├── item.py
-│   ├── store.py
-│   ├── tag.py
-│   ├── user.py
-├── .flaskenv
-├── .gitignore
-├── app.py
-├── blocklist.py
-├── conftest.py
-├── db.py
-├── Dockerfile
-├── README.md
-├── requirements.txt
-├── schemas.py
+##first_rest_api/
+######├── .apivenv/
+######├── instance/
+######│   ├── data.db
+######├── migrations/
+######│   ├── versions/
+######├── models/
+######│   ├── __init__.py
+######│   ├── item.py
+######│   ├── item_tags.py
+######│   ├── store.py
+######│   ├── tag.py
+######│   ├── user.py
+######├── resources/
+######│   ├── __init__.py
+######│   ├── item.py
+######│   ├── store.py
+######│   ├── tag.py
+######│   ├── user.py
+######├── .flaskenv
+######├── .gitignore
+######├── app.py
+######├── blocklist.py
+######├── conftest.py
+######├── db.py
+######├── Dockerfile
+######├── README.md
+######├── requirements.txt
+######├── schemas.py
 #Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
