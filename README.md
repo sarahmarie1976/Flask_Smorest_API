@@ -1,6 +1,4 @@
-README.md
-markdown
-Copy code
+
 # FIRST_REST_API
 
 This is a REST API built with Flask. It provides endpoints for user authentication and managing items, stores, and tags.
@@ -31,18 +29,18 @@ This is a REST API built with Flask. It provides endpoints for user authenticati
 Create and activate a virtual environment:
 
 bash
-Copy code
+
 python -m venv .apivenv
 source .apivenv/bin/activate
 Install dependencies:
 
 bash
-Copy code
+
 pip install -r requirements.txt
 Set up the database:
 
 bash
-Copy code
+
 flask db init
 flask db migrate
 flask db upgrade
@@ -50,12 +48,12 @@ Using Docker
 Build the Docker image:
 
 bash
-Copy code
+
 docker build -t first_rest_api .
 Run the Docker container:
 
 bash
-Copy code
+
 docker run -p 5005:5005 first_rest_api
 Running the Application
 Activate the virtual environment:
@@ -66,7 +64,7 @@ source .apivenv/bin/activate
 Run the Flask application:
 
 bash
-Copy code
+
 flask run
 The application will be available at http://127.0.0.1:5005.
 
@@ -90,9 +88,10 @@ GET /tag/<string:tag_id> - Get a tag by ID
 POST /tag - Create a new tag
 PUT /tag/<string:tag_id> - Update a tag by ID
 DELETE /tag/<string:tag_id> - Delete a tag by ID
+
+
 Project Structure
-markdown
-Copy code
+
 first_rest_api/
 ├── .apivenv/
 ├── instance/
@@ -122,5 +121,5 @@ first_rest_api/
 ├── README.md
 ├── requirements.txt
 ├── schemas.py
-Contributing
+#Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
